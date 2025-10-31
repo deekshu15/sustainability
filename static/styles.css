@@ -1,0 +1,25 @@
+/* static/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e8; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.alert {
+    font-size: 1.1rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#co2Chart {
+    max-width: 100%;
+    height: auto;
+}
