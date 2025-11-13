@@ -1,7 +1,3 @@
-# build-and-copy.ps1
-# Usage: run from repository root in PowerShell
-# This script runs `npm run build` in the eco-traffic-vision folder and copies
-# the built assets and Vite manifest into the Flask `static/` folder.
 
 $frontend = ".\eco-traffic-vision"
 $dist = Join-Path $frontend "dist"

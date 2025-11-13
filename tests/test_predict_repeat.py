@@ -1,8 +1,4 @@
-"""Small test script to POST the same image multiple times to /api/predict
-Usage:
-    python tests/test_predict_repeat.py --file static/assets/hero-traffic-s7FLP7fA.jpg --count 5
 
-Requires `requests` (pip install requests)."""
 import argparse
 import json
 import sys
